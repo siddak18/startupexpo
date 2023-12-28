@@ -98,11 +98,7 @@ html {
 }
 
 .xyz{
-    width: 30rem;
-    height: 20rem;
-    background-size: contain;
-    background-repeat:no-repeat ;
-    background-image: url("./Assets/IMG_7179\ \(1\)\ 2.png");
+    width:30%;
 }
 
 .aboutus-content{
@@ -1153,8 +1149,55 @@ border: 1.7px solid #00D1FF;
         align-items: center;
         gap: 2rem;
     }
+    .xyz{
+        width: 80%;
+        
+    }
+  }
+
+  @media (max-width:600px){
+    
     /* .xyz{
         width: 80%;
         height: 80%;
     } */
+    .why-grid-item-head{
+        font-size: 2.4rem;
+        height: max-content;
+    }
+    .why-grid-item-content{
+        font-size: 2rem;
+    }
+    .why-grid-item{
+        width: 34rem;
+    }
+    .prob{
+        width: 100%;
+    }
+    .whocan-part{
+        font-size: 3.3rem;
+    }
+    .whocan-content-value-point{
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+    .xyz{
+        width: 100%;
+    }
+    .aboutus-content-value{
+        width: 100%;
+    }
+    .reg-pro-1-conbox{
+        padding: 1rem;
+    }
+    .reg-pro-1-conval{
+        font-size:1.5rem ;
+        line-height: 1.6rem;
+    }
+    .reg-flex-card{
+        width: 35rem;
+        height: 22rem;
+        margin-bottom: 1rem;
+    }
   }
+
