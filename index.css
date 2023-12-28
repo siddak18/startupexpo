@@ -98,7 +98,7 @@ html {
 }
 
 .xyz{
-    width:30%;
+    width:50%;
 }
 
 .aboutus-content{
@@ -451,6 +451,11 @@ html {
     gap:3rem;
     justify-content: center;
     margin-top: 7rem;
+}
+
+.slide-con>img{
+    width: 20rem;
+    height: 20rem;
 }
 
 /* .img-par{
@@ -1150,7 +1155,7 @@ border: 1.7px solid #00D1FF;
         gap: 2rem;
     }
     .xyz{
-        width: 80%;
+        width: 60%;
         
     }
   }
@@ -1169,7 +1174,7 @@ border: 1.7px solid #00D1FF;
         font-size: 2rem;
     }
     .why-grid-item{
-        width: 34rem;
+        width: 40rem;
     }
     .prob{
         width: 100%;
@@ -1197,7 +1202,42 @@ border: 1.7px solid #00D1FF;
     .reg-flex-card{
         width: 35rem;
         height: 22rem;
-        margin-bottom: 1rem;
+    }
+    .reg-flex{
+        gap: 4rem;
+    }
+    .aboutus-content-value-head2{
+        font-size: 1.3rem;
+    }
+    .details-flex-num{
+        width: 70%;
+    }
+    .details-flex-con{
+        width: 70%;
+        font-size: 1.3rem;
+    }
+    .hero-heads{
+        width: max-content;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-heads-1,.hero-heads-2{
+        font-size: 6rem;
+    }
+    div.footer-two {
+        border-left: 0;
+        border-right: 0;
+        padding: 1rem 3rem;
+    }
+  }
+
+  @media(max-width:430px){
+    .details-flex-num{
+        width: 90%;
+    }
+    .details-flex-con{
+        width: 90%;
     }
   }
 
