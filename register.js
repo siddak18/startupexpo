@@ -62,11 +62,11 @@ function formSubmit(e) {
     sendMessage(data);
 
     //Show Alert Message(5)
-    document.querySelector('.alert').style.display = 'block';
+    // document.querySelector('.alert').style.display = 'block';
 
     //Hide Alert Message After Seven Seconds(6)
     setTimeout(function () {
-        document.querySelector('.alert').style.display = 'none';
+        // document.querySelector('.alert').style.display = 'none';
     }, 7000);
 
     //Form Reset After Submission(7)
