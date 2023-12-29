@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Startup Expo</title>
+    <link rel="shortcut icon" href="./Assets/esummit logo png 1.png" type="image/x-icon">k
 </head>
 <body>
     <div id="container">
-        <nav >
+        <nav id="navbar" >
             <a href="https://www.ecellnitb.com" style="
         display: flex;
         flex-direction: column;
@@ -146,10 +147,10 @@
             <div class="reg-pro-1">
                  <p class="why-head">Registration Procedure</p>
                  <div class="reg-pro-1-conbox">
-                   <div class="reg-pro-1-conval"><span>1.</span><p>Selected startups will be notified through email and call, following the reviewing and selection process</p></div>
-                   <div class="reg-pro-1-conval"><span>2.</span><p>After selection, startups must confirm their participation by sending an email to E-Summit MANIT Bhopal at <span class="spec">startupexpo@ecellnitb.in.</span> </p></div>
-                   <div class="reg-pro-1-conval"><span>3.</span><p>Each of the chosen startups will receive a unique slot number and a point of contact from the E-Summit team.</p></div>
-                   <div class="reg-pro-1-conval"><span>4.</span><p>Within three days of confirmation, startups should complete the payment process to E-Summit MANIT. The booth allocation fee is <span class="spec"> INR 10,000 </span> for a booth size of 8×8 sq ft inclusive of banners and posters, as well as 2 chairs and a table equipped with an electric socket for convenience.</p></div>
+                   <div class="reg-pro-1-conval"><span>1.</span><p style="text-align: justify;">Selected startups will be notified through email and call, following the reviewing and selection process</p></div>
+                   <div class="reg-pro-1-conval"><span>2.</span><p style="text-align: justify;">After selection, startups must confirm their participation by sending an email to E-Summit MANIT Bhopal at <span class="spec">startupexpo@ecellnitb.in.</span> </p></div>
+                   <div class="reg-pro-1-conval"><span>3.</span><p style="text-align: justify;">Each of the chosen startups will receive a unique slot number and a point of contact from the E-Summit team.</p></div>
+                   <div class="reg-pro-1-conval"><span>4.</span><p style="text-align: justify;">Within three days of confirmation, startups should complete the payment process to E-Summit MANIT. The booth allocation fee is <span class="spec"> INR 10,000 </span> for a booth size of 8×8 sq ft inclusive of banners and posters, as well as 2 chairs and a table equipped with an electric socket for convenience.</p></div>
                  </div>
             </div>
             <div class="reg-pro-1">
@@ -290,15 +291,15 @@
             <div>
                 <p class="why-head" style="font-size: 2rem;">Register Now For Startup Expo</p>
             <form action="" class="spon-form">
-              <div  class="input"> <img src="./Assets/man.svg" style="width: 26px; height: 26px;" width="100%" height="100%"  alt=""> <input type="text" placeholder="NAME" required> </div>
-              <div  class="input"> <img src="./Assets/m1.svg" style="width: 26px; height: 26px;" width="100%" height="100%"  alt=""> <input type="email" placeholder="E-Mail" required> </div>
-              <div  class="input"> <img src="./Assets/m2.svg" style="width: 20px; height: 20px;" width="100%" height="100%" min="1000000000" max="9999999999"  alt=""> <input type="number" placeholder="Whatsapp number" required> </div>
+              <div  class="input"> <img src="./Assets/man.svg"    alt=""> <input type="text" placeholder="NAME" required> </div>
+              <div  class="input"> <img src="./Assets/m1.svg"   alt=""> <input type="email" placeholder="E-Mail" required> </div>
+              <div  class="input"> <img src="./Assets/m2.svg"  min="1000000000" max="9999999999"  alt=""> <input type="number" placeholder="Whatsapp number" required> </div>
               <div class="twoinp">
-                <div  class="input"> <img src="./Assets/m4.svg" style="width: 23px; height: 23px;" width="100%" height="100%"  alt=""> <input type="text" placeholder="College" required> </div>
-              <div  class="input"> <img src="./Assets/m4.svg" style="width: 20px; height: 20px;" width="100%" height="100%"  alt=""> <input type="text" placeholder="Year/Class" required> </div>
+                <div  class="input"> <img src="./Assets/m4.svg"   alt=""> <input type="text" placeholder="College" required> </div>
+              <div  class="input"> <img src="./Assets/m4.svg"   alt=""> <input type="text" placeholder="Year/Class" required> </div>
               </div>
-              <div  class="input"> <img src="./Assets/m5.svg" style="width: 26px; height: 26px;" width="100%" height="100%"  alt=""> <input type="text" placeholder="Branch/section" required> </div>
-              <div  class="input"> <img src="./Assets/man.svg" style="width: 26px; height: 26px;" width="100%" height="100%"  alt=""> <input type="text" placeholder="Referal Code (optional)"> </div>
+              <div  class="input"> <img src="./Assets/m5.svg"   alt=""> <input type="text" placeholder="Branch/section" required> </div>
+              <div  class="input"> <img src="./Assets/man.svg"   alt=""> <input type="text" placeholder="Referal Code (optional)"> </div>
               <p class="terms">By Clicking on Submit you agree on our Terms and Conditions</p>
               <button class="submit-btn" type="submit">Submit</button>
             </form>
@@ -431,7 +432,7 @@
     <section class="newsletter">
         <h2 class="newsletter-head">Subscribe our News Letter</h2>
         <div class="newsletter-input-button-area">
-            <input type="text" placeholder="Enter Your E-Mail" class="newsletter-email-input">
+            <input type="email" placeholder="Enter Your E-Mail" class="newsletter-email-input">
             <button class="newsletter-subscribe-button">Subscribe</button>
         </div>
     </section>
@@ -519,5 +520,17 @@ function closeMenu() {
   navMenu.classList.remove("active");
 }
     </script>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-6rem";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
 </body>
 </html>

@@ -1,8 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
+}
+
+#navbar{
+    transition: 1s;
 }
 
 
@@ -327,7 +337,7 @@ html {
     display: flex;
     gap: 0.1rem;
     color: #656565;
-    text-align: justify;
+    text-align: center;
     font-family: Roboto;
     font-size: 1.0625rem;
     font-style: normal;
@@ -344,12 +354,13 @@ html {
 .reg-flex{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5rem;
 }
 
 .reg-flex-card{
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 0.9375rem;
     background: #FFF;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
@@ -360,7 +371,7 @@ html {
 }
 
 .mar{
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 .cir{
@@ -430,7 +441,6 @@ html {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.21875rem;
 }
 
 .numlab{
@@ -440,7 +450,7 @@ html {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.105rem;
+    letter-spacing: 0;
 }
 
 .swiper{
@@ -498,13 +508,12 @@ html {
 
 h2.footer-head {
     color: #489FB5;
-    font-family: Inter;
+    font-family: 'Roboto';
     font-size: 1.675rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.225rem;
-
     margin-bottom: 1.5rem;
 }
 
@@ -540,7 +549,7 @@ img.contact-element-image {
 
 div.contact-element-text {
     color: #B5B5B6;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -573,7 +582,6 @@ div.footer-one-social {
 
 div.footer-two {
     border-left: 1px solid #515151;
-    border-right: 1px solid #515151;
     padding: 1rem 3rem;
 }
 
@@ -587,7 +595,7 @@ div.footer-input>input {
     background: transparent;
     width: 100%;
     padding: 8px 0 5px 0;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 0.9375rem;
@@ -607,7 +615,7 @@ div.footer-input>textarea {
     padding: 8px 0 5px 0;
     height: 100px;
     resize: none;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 0.9375rem;
@@ -626,7 +634,7 @@ button.footer-form-submit-button {
 
     color: #489FB5;
     text-align: center;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-size: 0.6875rem;
     font-style: normal;
     font-weight: 700;
@@ -755,7 +763,6 @@ div.newsletter-input-button-area {
     height: 3rem;
     padding: 0.25rem 1rem;
     padding-right: 0.25rem;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -765,18 +772,16 @@ div.newsletter-input-button-area {
 input.newsletter-email-input {
     border: none;
     outline: none;
-
     background: transparent;
     height: 100%;
     width: 60%;
-    font-family: 'Inter';
+    color: black;
+    font-family: 'Roboto';
+    font-size: 1rem;
     font-style: normal;
-    font-weight: 400;
-    font-size: 0.9375rem;
+    font-weight: 600;
     line-height: normal;
-    letter-spacing: 0.1125rem;
-    color: #b6b6b6;
-    transition: 0.4s;
+    letter-spacing: 0.518px;
 }
 
 button.newsletter-subscribe-button {
@@ -935,7 +940,12 @@ a {
     z-index: 10;
   }
   .grp{
-    width: 40%;
+    width: 37%;
+  }
+
+  .grp>img{
+    object-fit: contain;
+    height: auto;
   }
   
   #logo {
@@ -1146,6 +1156,12 @@ border: 1.7px solid #00D1FF;
     background-color: white;
   }
 
+  .input>img{
+    object-fit: contain;
+    margin-left: 0.3rem;
+    width: 1.7rem;
+    height: 1.7rem;
+  }
   .twoinp{
     width: 100%;
     display: flex;
