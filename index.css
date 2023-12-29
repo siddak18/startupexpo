@@ -1046,7 +1046,7 @@ a {
   }
 
   .timer{
-    width: 20rem;
+    width: 25rem;
     height: max-content;
     display: flex;
     border-radius: 0.73531rem;
@@ -1058,7 +1058,7 @@ a {
   }
   #countdown>ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 1rem 0;
     width: 100%;
   }
