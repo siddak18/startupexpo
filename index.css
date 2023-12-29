@@ -881,9 +881,16 @@ div.sponsor-image-container {
     justify-content: center;
     align-items: center;
     background-color: #EDEDED;
+    cursor: pointer;
+    
+}
+div.sponsor-image-wrapper:hover{
+    transform: translateY(-0.3rem);
 }
 
+
 div.sponsor-image-wrapper {
+    transition-duration: 1s;
     /* width:10rem;
     height: 7.52125rem; */
     width: 8.3rem;
@@ -892,6 +899,9 @@ div.sponsor-image-wrapper {
     border-radius: 0.57894rem;
     background: #FFF;
     padding: 1rem;
+}
+div.sponsor-image-wrapper>img{
+    object-fit: contain;
 }
 
 @media screen and (max-width:600px) {
