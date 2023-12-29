@@ -1170,6 +1170,16 @@ border: 1.7px solid #00D1FF;
     font-weight: 300;
     font-size: 1.0709rem;
     line-height: 1.3125rem;
+    color: black;
+    outline: none;
+  }
+
+  .input>input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.0709rem;
+    line-height: 1.3125rem;
     color: #9F9F9F;
     outline: none;
   }
