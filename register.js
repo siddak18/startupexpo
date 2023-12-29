@@ -23,7 +23,7 @@ var config = {
 firebase.initializeApp(config);
 
 //Reference for form collection(3)
-let formMessage = firebase.database().ref('cryptoRegistration');
+let formMessage = firebase.database().ref('StartupRegistration');
 
 //listen for submit event//(1)
 document
