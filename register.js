@@ -1,13 +1,24 @@
 
+//   }
+
+
 var config = {
-    apiKey: "AIzaSyDfb2QT1AG3-2yqiiUo1mkOn170QRtK92A",
-    authDomain: "ecell-1b04d.firebaseapp.com",
-    projectId: "ecell-1b04d",
-    storageBucket: "ecell-1b04d.appspot.com",
-    messagingSenderId: "324153281020",
-    appId: "1:324153281020:web:0d3d83bdb18d6e0f534a79",
-    measurementId: "G-BW02JFHNT6",
-    databaseURL: "https://ecell-1b04d-default-rtdb.firebaseio.com/"
+    // apiKey: "AIzaSyDfb2QT1AG3-2yqiiUo1mkOn170QRtK92A",
+    // authDomain: "ecell-1b04d.firebaseapp.com",
+    // projectId: "ecell-1b04d",
+    // storageBucket: "ecell-1b04d.appspot.com",
+    // messagingSenderId: "324153281020",
+    // appId: "1:324153281020:web:0d3d83bdb18d6e0f534a79",
+    // measurementId: "G-BW02JFHNT6",
+    // databaseURL: "https://ecell-1b04d-default-rtdb.firebaseio.com/"
+    apiKey: "AIzaSyDsxXUlVdImrkzZgN1hA9fwD-GWGHrk0Mw",
+    authDomain: "ecell-f69fd.firebaseapp.com",
+    databaseURL: "https://ecell-f69fd-default-rtdb.firebaseio.com",
+    projectId: "ecell-f69fd",
+    storageBucket: "ecell-f69fd.appspot.com",
+    messagingSenderId: "742246625764",
+    appId: "1:742246625764:web:9d029cdf99989fb3f9d7f1",
+    measurementId: "G-ER9DWJR9SF"
 };
 firebase.initializeApp(config);
 

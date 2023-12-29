@@ -1165,6 +1165,13 @@ border: 1.7px solid #00D1FF;
     background-color: white;
     font-size: 1rem;
     font-family: 'Inter';
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.0709rem;
+    line-height: 1.3125rem;
+    color: #9F9F9F;
+    outline: none;
   }
 
   .input>img{
