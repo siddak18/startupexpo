@@ -35,7 +35,10 @@ input[type="number"]::-webkit-inner-spin-button,
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
-
+.high{
+    color: #656565;
+    font-weight: 600;
+}
 html {
     font-size: var(--base-font-size);
 }
@@ -1114,6 +1117,10 @@ a {
         margin-top:1rem;
     }
   }
+
+  .footer-form-submit-button{    
+    border: solid 1px #489FB5;
+        cursor: pointer;}
 
   .formfor{
      width: 100%;

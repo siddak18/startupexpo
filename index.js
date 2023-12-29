@@ -26,10 +26,27 @@ let updateCount = setInterval(function(){
     let seconds = Math.floor(distance % (1000 * 60) / 1000);
 
     // Display values in html elements
+    if(days>=10){
     day.textContent = days;
+    }else{ 
+        day.textContent = '0'+days;
+    }
+    if(hours>=10){
     hour.textContent = hours;
-    minute.textContent = minutes;
-    second.textContent = seconds;
+    }else{
+        hour.textContent='0'+hours;
+    }
+    if(minutes>=10){
+        minute.textContent = minutes;
+    }else{
+        minute.textContent = '0'+minutes;
+    }
+    if(seconds>=10){
+        second.textContent = seconds;
+    }else{
+        second.textContent = '0'+seconds;
+    }
+    
 
     // if countdown expires
     if(distance < 0){
