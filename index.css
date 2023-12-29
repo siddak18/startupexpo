@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -883,8 +884,10 @@ div.sponsor-image-container {
 }
 
 div.sponsor-image-wrapper {
-    width:10rem;
-    height: 7.52125rem;
+    /* width:10rem;
+    height: 7.52125rem; */
+    width: 8.3rem;
+    height: 7rem;
     flex-shrink: 0;
     border-radius: 0.57894rem;
     background: #FFF;
