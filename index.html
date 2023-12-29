@@ -150,12 +150,39 @@
         <div class="reg-pro-con">
             <div class="reg-pro-1">
                  <p class="why-head">Registration Procedure</p>
+                 <div class="reg-pro-1-conbox-12">
+                    <div class="caro">
+                        <div class="swiper2">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                <div class="imghelp"loading="lazy">
+                                <img src="./Assets/DSC_0167 1.png" width="100%" height="100%" alt="" style="object-fit: contain;">
+                                </div>
+                              </div>
+                              <div class="swiper-slide" >
+                                <div class="imghelp"  justify-content: center;">
+                                <img src="./Assets/DSC_7775 1.png" width="100%" height="100%" alt="" style="object-fit: contain;">
+                                </div>
+                              </div>
+                              <div class="swiper-slide" >
+                                <div class="imghelp" >
+                                <img src="./Assets/DSC_7768 1.png" width="100%" height="100%" alt="" style="object-fit: contain;">
+                                </div>
+                              </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    </div>
                  <div class="reg-pro-1-conbox">
                    <div class="reg-pro-1-conval"><span>1.</span><p style="text-align: justify;">Selected startups will be notified through email and call, following the reviewing and selection process</p></div>
                    <div class="reg-pro-1-conval"><span>2.</span><p style="text-align: justify;">After selection, startups must confirm their participation by sending an email to E-Summit MANIT Bhopal at <span class="spec">startupexpo@ecellnitb.in.</span> </p></div>
                    <div class="reg-pro-1-conval"><span>3.</span><p style="text-align: justify;">Each of the chosen startups will receive a unique slot number and a point of contact from the E-Summit team.</p></div>
                    <div class="reg-pro-1-conval"><span>4.</span><p style="text-align: justify;">Within three days of confirmation, startups should complete the payment process to E-Summit MANIT. The booth allocation fee is <span class="spec"> INR 10,000 </span> for a booth size of 8×8 sq ft inclusive of banners and posters, as well as 2 chairs and a table equipped with an electric socket for convenience.</p></div>
                  </div>
+                </div>
             </div>
             <div class="reg-pro-1">
                 <p class="why-head">Screening Process</p>
@@ -386,6 +413,12 @@
     <div class="sponsor-part">
         <h3 class="why-head">Meet our Investors</h3>
         <div class="sponsor-image-container">
+            <a href="https://iangroup.vc/"> <div class="sponsor-image-wrapper">
+                <img src="./Assets/sponsor/indianimg.png" width="100%" height="100%" alt="Sponsor" class="sponsor-image">
+            </div></a>
+            <a href="https://www.100x.vc/"> <div class="sponsor-image-wrapper">
+                <img src="./Assets/sponsor/100xvc.jpg" width="100%" height="100%" alt="Sponsor" class="sponsor-image">
+            </div></a>
             <a href="https://nasscom.in/"> <div class="sponsor-image-wrapper">
                 <img src="./Assets/sponsor/nasscom.jpg" width="100%" height="100%" alt="Sponsor" class="sponsor-image">
             </div></a>
@@ -430,9 +463,6 @@
             </div></a>
             <a href="https://www.fortytwo.vc/"> <div class="sponsor-image-wrapper">
                 <img src="./Assets/sponsor/forty2.png" width="100%" height="100%" alt="Sponsor" class="sponsor-image">
-            </div></a>
-            <a href="https://iangroup.vc/"> <div class="sponsor-image-wrapper">
-                <img src="./Assets/sponsor/indianimg.png" width="100%" height="100%" alt="Sponsor" class="sponsor-image">
             </div></a>
             <a href="https://madhyabharatangels.com/"> <div class="sponsor-image-wrapper">
                 <img src="./Assets/sponsor/mpangels.jpg" width="100%" height="100%" alt="Sponsor" class="sponsor-image">
@@ -504,6 +534,29 @@
     <script>
         var swiper = new Swiper(".mySwiper", {
       
+      autoplay:true,
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 400,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+      navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }, pagination: {
+    el: '.swiper-pagination',
+    clickable:true
+  },
+    });
+
+    var swiper2 = new Swiper(".swiper2", {
+      effect:'flip',
       autoplay:true,
       grabCursor: true,
       centeredSlides: true,

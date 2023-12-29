@@ -331,16 +331,29 @@ html {
 
 
 .reg-pro-1-conbox{
-      width: 100%;
+      width: 40rem;
       display: flex;
       flex-direction: column;
       gap: 0.3rem;
-      padding: 5rem;
+      padding: 2rem;
       border-radius: 0.9375rem;
       background: #FFF;
       box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25)
 }
 
+.imghelp>img{
+    object-fit: contain;
+}
+
+
+.swiper2{
+    width: 30rem;
+    height: max-content;
+    padding: 5rem 0 0 0;
+}
+.caro{
+    width: 40rem;
+}
 .reg-pro-1-conval{
     display: flex;
     gap: 0.1rem;
@@ -1347,3 +1360,30 @@ border: 1.7px solid #00D1FF;
     }
   }
 
+  .reg-pro-1-conbox-12{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+
+  @media (max-width:700px) {
+    .reg-pro-1-conbox-12{
+        flex-direction: column;
+        align-items: center;
+    }
+    .caro{
+        /* width: max-content; */
+    }
+    .swiper-wrapper,.swiper2{
+        width: 100%;
+    }
+    .swiper-slide{
+        width: 100%;
+    }
+    .imghelp{
+        width: 100%;
+    }
+    
+  }
