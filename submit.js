@@ -29,9 +29,14 @@ firebase.initializeApp(config);
 // its Revenue field id = Revenue
 // its profitable field id = profitable
 // its contact field id = contact
-        document
+try {
+    document
             .getElementById('expoRegistration')
             .addEventListener('submit', formSubmit);
+} catch (error) {
+
+}
+        
 
 
         async function formSubmit(e) {
