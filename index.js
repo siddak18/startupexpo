@@ -6,7 +6,7 @@ let second = document.querySelector('.seconds');
 function setCountdown() {
 
 // Set countdown date
-let countdownDate = new Date('Jan 01, 2024 16:40:25').getTime();
+let countdownDate = new Date('Jan 01, 2024 00:00:01').getTime();
 
 // Update countdown every second
 let updateCount = setInterval(function(){
