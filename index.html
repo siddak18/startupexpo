@@ -748,8 +748,14 @@
     <section class="newsletter">
         <h2 class="newsletter-head">Subscribe our News Letter</h2>
         <div class="newsletter-input-button-area">
-            <input type="email" placeholder="Enter Your E-Mail" class="newsletter-email-input">
-            <button class="newsletter-subscribe-button">Subscribe</button>
+            <form id="subsform" style="
+            width: 100%;
+            height: 100%;
+            display: flex;
+        ">
+            <input type="text" style="flex-grow:1;" placeholder="Enter Your E-Mail" id="subs-email" class="newsletter-email-input">
+            <button class="newsletter-subscribe-button" type="submit">Subscribe</button>
+        </form>
         </div>
     </section>
     <footer class="footer" id="contact">
@@ -775,7 +781,7 @@
 
         <div class="footer-two">
             <h2 class="footer-head footer-two-head">Write to us</h2>
-            <form class="footer-form" action="#" method="POST" id="fotform">
+            <form class="footer-form" id="fotform">
                 <div class="footer-input">
                     <input type="text" name="name" id="foot-name" placeholder="Full Name">
                 </div>
@@ -871,6 +877,6 @@ function closeMenu() {
           prevScrollpos = currentScrollPos;
         }
         </script>
-        <script src="register.js"></script>
+        <script src="submit.js"></script>
 </body>
 </html>
