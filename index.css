@@ -1047,6 +1047,9 @@ a {
       left: 0;
       background: rgba(4, 7, 13, 0.85);
     }
+    body.menu-open {
+        overflow: hidden;
+      }
     
     div.hamburger {
       display: block;
