@@ -696,6 +696,54 @@
         </div>
     </div>
 </div>
+<section id="mediacoverage" class="marquee2" style="
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0;
+    width: max-content;
+    height: 87vh;
+">
+        <img src="https://res.cloudinary.com/djjbjnrgl/image/upload/v1703884090/m1_tzkvxj.jpg" alt=""
+            style="height: inherit;">
+        <img src="https://res.cloudinary.com/djjbjnrgl/image/upload/v1703884089/m2_uqayja.jpg" alt="" style="
+    height: inherit;
+">
+    </section>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        .marquee2 {
+            -moz-animation: scroll-left2 2s linear alternate infinite;
+            -webkit-animation: scroll-left2 2s linear alternate infinite;
+            animation: scroll-left2 20s linear alternate infinite;
+        }
+
+        @-moz-keyframes scroll-left2 {
+
+            100% {
+                -moz-transform: translateX(calc(-2*(9/16)*87vh));
+            }
+        }
+
+        @-webkit-keyframes scroll-left2 {
+
+            100% {
+                -webkit-transform: translateX(calc(-2*(9/16)*87vh));
+            }
+        }
+
+        @keyframes scroll-left2 {
+
+            100% {
+                -moz-transform: translateX(calc(-2*(9/16)*87vh));
+                -webkit-transform: translateX(calc(-2*(9/16)*87vh));
+                transform: translateX(calc(-2*(9/16)*87vh));
+            }
+        }
+    </style>
 
     <section class="newsletter">
         <h2 class="newsletter-head">Subscribe our News Letter</h2>
