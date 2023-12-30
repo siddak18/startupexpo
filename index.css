@@ -20,7 +20,11 @@ input{
     transition: 1s;
 }
 
-
+@media (max-width: 600px){
+.why-grid {
+    gap: 7rem;
+}
+}
 input[type="number"]::-webkit-inner-spin-button,
         input[type="number"]::-webkit-outer-spin-button {
             -webkit-appearance: none;
@@ -1047,6 +1051,9 @@ a {
       left: 0;
       background: rgba(4, 7, 13, 0.85);
     }
+    body.menu-open {
+        overflow: hidden;
+      }
     
     div.hamburger {
       display: block;
