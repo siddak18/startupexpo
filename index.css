@@ -12,6 +12,9 @@
     
 }
 
+img  {
+    object-fit: contain !important;
+}
 input{
     border: none;
     outline: none;
@@ -491,7 +494,7 @@ html {
     display: flex;
     gap:3rem;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 3.5rem;
 }
 
 .slide-con>img{
