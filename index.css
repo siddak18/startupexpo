@@ -1284,6 +1284,9 @@ border: 1.7px solid #00D1FF;
     .aboutus-content{
         flex-direction: column;
     }
+    .aboutus-content.raphe {
+        flex-direction: column-reverse;
+    }
     .formwrap{
         flex-direction: column;
         align-items: center;
